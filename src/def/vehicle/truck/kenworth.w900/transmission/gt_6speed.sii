@@ -13,6 +13,9 @@ SiiNunit
         # 换挡时间
         shift_time: 0.1
 
+        # 缓速器
+        retarder: 5
+
         # 倒车档
         ratios_reverse[0]: -2.00
 
