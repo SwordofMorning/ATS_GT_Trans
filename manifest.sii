@@ -1,0 +1,14 @@
+SiiNunit
+{
+    mod_package : .package_name
+    {
+        package_version: "1.0"
+        display_name: "GT Racing 6-Speed Transmission"
+        author: "SwordofMorning"
+        
+        category[]: "transmission"
+        
+        # icon: "mod_icon.jpg" 
+        # description_file: "mod_description.txt" 
+    }
+}
