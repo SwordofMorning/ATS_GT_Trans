@@ -1,0 +1,35 @@
+SiiNunit
+{
+    accessory_transmission_data : gt6.kenworth.t680_2022.transmission
+    {
+        name: "GT Racing Sequential"
+        price: 20000
+        unlock: 1
+        icon: "transmission_generic"
+
+        # Differential ratio
+        differential_ratio: 2.50
+
+        # Shift time in seconds
+        shift_time: 0.1
+
+        # Retarder 5-stages for high speed braking
+        retarder: 5
+
+        # Dashboard display prefix
+        auto_mode_name: "A"
+        manual_mode_name: "F"
+
+        # Reverse gear
+        ratios_reverse[0]: -2.00
+
+        # === 7-Speed Close-Ratio for 2500 RPM ===
+        ratios_forward[0]: 4.00  # 1: (0 - 30 mph)
+        ratios_forward[1]: 2.00  # 2: (30 - 60 mph)
+        ratios_forward[2]: 1.33  # 3: (60 - 90 mph)
+        ratios_forward[3]: 0.95  # 4: (90 - 125 mph)
+        ratios_forward[4]: 0.75  # 5: (125 - 160 mph)
+        ratios_forward[5]: 0.60  # 6: (160 - 200 mph)
+        ratios_forward[6]: 0.48  # 7: (200+ mph)
+    }
+}
